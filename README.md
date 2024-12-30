@@ -2,10 +2,16 @@
 
 https://github.com/google/wire/blob/main/README.md
 
-## Compile and execute
+
+## Generate di/wire_gen.go
 
 ```
-% go build main.go wire_gen.go
+% wire di/wire.go
+```
+
+## Compile and execute
+```
+% go build main.go
 % ./main
 Hi there!
 ```
